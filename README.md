@@ -19,12 +19,11 @@ With the example used, there is an analytic solution to check the code at each s
 The Optimisation Problem is as follows:
 
 $$
-\min \int_0^T x\;\mathrm{d}t \\
- \\
-\begin{aligned}
+\begin{split}
+\min \int_0^T x \ \mathrm{d}t \\
 \mathrm{s.t}\quad \dot{x}= bx \\
-x(0) - a =0 
-\end{aligned}
+x(0) - a =0
+\end{split}
 $$
 
 WE can think of this as finding the function x(t) that gives the smallest area given the ODE by changing the parameters a and b
@@ -59,3 +58,14 @@ Our Goal is to find $\dfrac{dF}{dp}$ i.e. the gradients/sensitivies to change ou
 ## Basic Results
 ![Alt text](<x at different iterations.JPG>)
 ![Alt text](<Obj vs Iter.JPG>)
+
+$$
+\begin{align}
+F(x,t;p) &= \int_0^T x\;\mathrm{d}t \\
+f(x,t;p) &= x \\
+p &= [a,b]^T \\
+g(x(t = 0),p) &= x(0) - a \\
+h(x,\dot{x},p,t) &= \dot{x} - bx \\
+t &\in [0,1]
+\end{align}
+$$
