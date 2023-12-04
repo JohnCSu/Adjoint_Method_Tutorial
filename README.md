@@ -28,7 +28,7 @@ $$
 
 WE can think of this as finding the function x(t) that gives the smallest area given the ODE by changing the parameters a and b
 
-Here the analytical solution of this ODE is : $ x(t) = ae^{bt}$ so our challenge is to find the combination of a and b such that the area under  $ x(t) = ae^{bt}$ is minimized.
+Here the analytical solution of this ODE is : $x(t) = ae^{bt}$ so our challenge is to find the combination of a and b such that the area under  $x(t) = ae^{bt}$ is minimized.
 
 Note that all stages of this method has an analytical method so you can check the results if you want to try this on your own.
 
