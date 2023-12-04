@@ -42,6 +42,7 @@ We define the following:
 - F : Overall Objective Function across time T 
 - T : final time
 So from the problem above we define the following
+
 $$
 \begin{align}
 F(x,t;p) &= \int_0^T x\;\mathrm{d}t \\
@@ -55,18 +56,7 @@ $$
 
 Our Goal is to find $\dfrac{dF}{dp}$ i.e. the gradients/sensitivies to change our parameters to improve our objective function. 
 
-
-$$
-\begin{align}
-F(x,t;p) &= \int_0^T x\;\mathrm{d}t \\
-f(x,t;p) &= x \\
-p &= [a,b]^T \\
-g(x(t = 0),p) &= x(0) - a \\
-h(x,\dot{x},p,t) &= \dot{x} - bx \\
-t &\in [0,1]
-\end{align}
-$$
-
 ## Basic Results
+
 ![Alt text](<x at different iterations.JPG>)
 ![Alt text](<Obj vs Iter.JPG>)
