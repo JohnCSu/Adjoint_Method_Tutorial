@@ -12,7 +12,7 @@ Adjoint Method:
 1. Forward Solve ODE
 2. Backward Solve Adjoint Solution
 3. Calculate $\dfrac{dF}{dp}$
-4. Update parameters via gradient descent ($\gamma is chosen step size$) : $p_{i+1} = p_i - \gamma \dfrac{dF}{dp}$
+4. Update parameters via gradient descent ($\gamma$ is chosen step size) : $p_{i+1} = p_i - \gamma \dfrac{dF}{dp}$
 
 With the example used, there is an analytic solution to check the code at each step.
 
@@ -55,3 +55,7 @@ t &\in [0,1]
 $$
 
 Our Goal is to find $\dfrac{dF}{dp}$ i.e. the gradients/sensitivies to change our parameters to improve our objective function. 
+
+## Basic Results
+![Alt text](<x at different iterations.JPG>)
+![Alt text](<Obj vs Iter.JPG>)
