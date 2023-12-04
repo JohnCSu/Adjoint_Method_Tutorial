@@ -55,9 +55,6 @@ $$
 
 Our Goal is to find $\dfrac{dF}{dp}$ i.e. the gradients/sensitivies to change our parameters to improve our objective function. 
 
-## Basic Results
-![Alt text](<x at different iterations.JPG>)
-![Alt text](<Obj vs Iter.JPG>)
 
 $$
 \begin{align}
@@ -69,3 +66,7 @@ h(x,\dot{x},p,t) &= \dot{x} - bx \\
 t &\in [0,1]
 \end{align}
 $$
+
+## Basic Results
+![Alt text](<x at different iterations.JPG>)
+![Alt text](<Obj vs Iter.JPG>)
